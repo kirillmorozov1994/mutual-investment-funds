@@ -1,0 +1,6 @@
+#dependensive
+/node_modules
+/package-lock.json
+
+#build project
+/dist

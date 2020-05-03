@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Паевые инвестиционные фонды">
+	<meta name="keywords" content="Инвестиции, ПИФ, Доход, СЧА, Рейтинг">
+	<meta name="author" content="Kirill Morozov">
+	<link rel="icon" href="./img/icon.png">
+	<link rel="stylesheet" href="css/app.css">
+	<title>Паевые инвестиционные фонды</title>
+</head>
+
+<body>
+
+	<header class="section-menu">
+		<div class="container">
+			<div class="section-menu__wrapper">
+				<div class="section-menu__logo">
+				</div>
+				<div class="section-menu__content">
+					<div class="section-menu__content__rating">
+						Рейтинг
+					</div>
+					<div class="section-menu__content__fonds">
+						Паевых Инвестиционных Фондов
+					</div>
+				</div>
+				<ul class="section-menu__navigation">
+					<li class="section-menu__navigation__item"><a href="#">ПИФы</a></li>
+					<li class="section-menu__navigation__item"><a href="#">Компании</a></li>
+					<li class="section-menu__navigation__item"><a href="#">Управляющие</a></li>
+					<li class="section-menu__navigation__item"><a href="#">Консультанты</a></li>
+				</ul>
+				<div class="section-menu__burger">
+					<span class="section-menu__burger__top"></span>
+					<span class="section-menu__burger__middle"></span>
+					<span class="section-menu__burger__bottom"></span>
+				</div>
+			</div>
+			<!-- /.section-menu__wrapper -->
+		</div>
+		<!-- /.contaier -->
+	</header>
+	<!-- /.section-menu -->
+
+
+	<div class="section-piff">
+		<div class="container">
+			<div class="section-piff__MainImg">
+				<img src="./img/gazPromoMain.png" alt="gazProm">
+			</div>
+			<div class="section-piff__content">
+				<div class="section-piff__content__leftPart">
+					<div class="section-piff__content__leftPart__title">
+						Паевые инвестиционные фонды (ПИФы)
+					</div>
+					<div class="section-piff__content__leftPart__desc">
+						ПИФы — это форма совместных инвестиций Покупая ПИФ, вы становитесь инвестором, а ваши средства размещаются
+						профессиональными управляющими в растущие активы (как правило, акции или облигации) с целью получения
+						дохода. ПИФы
+						принято сравнивать по 2 показателям - доходности (то есть изменение стоимости пая за период) и Стоимости
+						Чистых Активов
+						(СЧА), привлеченных в фонд.
+						<span>Мы собираем данные по доходности и СЧА и выстраиваем по ним обьективную аналитику для
+							построения рейтинга.</span>
+					</div>
+				</div>
+				<div class="section-piff__content__rightPart">
+					<div class="section-piff__content__rightPart__title">
+						Финансовый консультант
+					</div>
+					<div class="section-piff__content__rightPart__desc">
+						Для выбора оптимальной стратегии инвестирования Вы можете воспользоваться услугами профессиональных
+						консультантов.
+					</div>
+					<div class="section-piff__content__rightPart__about">
+						<img src="./img/peopleConsl.png" alt="peopleConsl" class="section-piff__content__rightPart__about__img">
+						<ul class="section-piff__content__rightPart__about__list">
+							<li class="section-piff__content__rightPart__about__list-item">Узнать о сервисе консультантов</li>
+							<li class="section-piff__content__rightPart__about__list-item">Рейтинг консультантов</li>
+							<li class="section-piff__content__rightPart__about__list-item">Выбрать консультанта</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.section-piff -->
+
+
+	<div class="section-ratingPiffIncome">
+		<div class="container">
+			<div class="section-ratingPiffIncome__title">
+				Рейтинг ПИФов по доходности
+			</div>
+			<div class="section-ratingPiffIncome__wrapper">
+				<div class="section-ratingPiffIncome__fonds">
+					<ul class="section-ratingPiffIncome__fonds__list">
+						<li class="section-ratingPiffIncome__fonds__list-item">3 месяца</li>
+						<li class="section-ratingPiffIncome__fonds__list-item">6 месяцев</li>
+						<li class="section-ratingPiffIncome__fonds__list-item active-fonds">Этот год</li>
+						<li class="section-ratingPiffIncome__fonds__list-item">1 год</li>
+						<li class="section-ratingPiffIncome__fonds__list-item">3 года</li>
+						<li class="section-ratingPiffIncome__fonds__list-item">Все</li>
+					</ul>
+					<div class="section-ratingPiffIncome__fonds__panel">
+						<ul class="section-ratingPiffIncome__fonds__panel__list">
+							<li class="section-ratingPiffIncome__fonds__panel__list-item">Название фонда</li>
+							<li class="section-ratingPiffIncome__fonds__panel__list-item">
+								Доходность
+								<span class="arrow-up active-arrow__up"></span>
+								<span class="arrow-down"></span>
+							</li>
+							<li class="section-ratingPiffIncome__fonds__panel__list-item">
+								СЧА, млн.руб
+								<span class="arrow-up active-arrow__up"></span>
+								<span class="arrow-down"></span>
+							</li>
+						</ul>
+					</div>
+					<div class="section-ratingPiffIncome__fonds__elemwrap">
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_2.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									Уралсиб Первый
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								54,2%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_3.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									Открытие - Акции
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								58,3%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_4.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									Апрель Капитал - Акции
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								45,2%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_5.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									Сбербанк - Природные ресурсы
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								24,8%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_1.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									ВТБ - Фонд Акций
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								63,1%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_2.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									Уралсиб Первый
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								54,2%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_3.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									Открытие - Акции
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								58,3%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_4.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									Апрель Капитал - Акции
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								45,2%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_5.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									Сбербанк - Природные ресурсы
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								24,8%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingPiffIncome__fonds__element">
+							<div class="section-ratingPiffIncome__fonds__name">
+								<div class="section-ratingPiffIncome__fonds__name-img">
+									<img src="./img/fond_1.png" alt="fonds">
+								</div>
+								<div class="section-ratingPiffIncome__fonds__name-text">
+									ВТБ - Фонд Акций
+								</div>
+							</div>
+							<div class="section-ratingPiffIncome__fonds__element-income">
+								63,1%
+							</div>
+							<div class="section-ratingPiffIncome__fonds__SCHA">
+								<div class="section-ratingPiffIncome__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<button class="section-ratingPiffIncome__fonds__allFonds">Показать все фонды</button>
+					</div>
+				</div>
+				<div class="section-ratingPiffIncome__diagramms">
+					<label for="ratingCheckbox" class="section-ratingPiffIncome__diagramms__checkbox">
+						<input id="ratingCheckbox" type="checkbox">
+						<span class="customCheckbox"></span>
+						<span class="customCheckbox__text">Показать только фонды с СЧА больше 10 млн руб</span>
+					</label>
+					<div class="section-ratingPiffIncome__diagramms__img">
+						<img src="./img/diagram.png" alt="diagramm">
+					</div>
+					<div class="section-ratingPiffIncome__diagramms__img2">
+						<img src="./img/diagram2.png" alt="diagramm">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.section-ratingPiffIncome -->
+
+
+	<div class="section-ratingSCHA">
+		<div class="container">
+			<div class="section-ratingSCHA__title">
+				Рейтинг ПИФов по СЧА
+			</div>
+			<div class="section-ratingSCHA__wrapper">
+				<div class="section-ratingSCHA__fonds">
+					<ul class="section-ratingSCHA__fonds__list">
+						<li class="section-ratingSCHA__fonds__list-item">3 месяца</li>
+						<li class="section-ratingSCHA__fonds__list-item">6 месяцев</li>
+						<li class="section-ratingSCHA__fonds__list-item active-fonds">Этот год</li>
+						<li class="section-ratingSCHA__fonds__list-item">1 год</li>
+						<li class="section-ratingSCHA__fonds__list-item">3 года</li>
+						<li class="section-ratingSCHA__fonds__list-item">Все</li>
+					</ul>
+					<div class="section-ratingSCHA__fonds__panel">
+						<ul class="section-ratingSCHA__fonds__panel__list">
+							<li class="section-ratingSCHA__fonds__panel__list-item">Название фонда</li>
+							<li class="section-ratingSCHA__fonds__panel__list-item">Доходность
+								<span class="arrow-up active-arrow__up"></span>
+								<span class="arrow-down"></span>
+							</li>
+							<li class="section-ratingSCHA__fonds__panel__list-item">
+								СЧА, млн.руб
+								<span class="arrow-up active-arrow__up"></span>
+								<span class="arrow-down"></span>
+							</li>
+						</ul>
+					</div>
+					<div class="section-ratingSCHA__fonds__elemwrap">
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_2.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									Уралсиб Первый
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								54,2%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_3.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									Открытие - Акции
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								58,3%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_4.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									Апрель Капитал - Акции
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								45,2%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_5.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									Сбербанк - Природные ресурсы
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								24,8%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_1.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									ВТБ - Фонд Акций
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								63,1%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_2.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									Уралсиб Первый
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								54,2%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_3.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									Открытие - Акции
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								58,3%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_4.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									Апрель Капитал - Акции
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								45,2%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_5.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									Сбербанк - Природные ресурсы
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								24,8%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingSCHA__fonds__element">
+							<div class="section-ratingSCHA__fonds__name">
+								<div class="section-ratingSCHA__fonds__name-img">
+									<img src="./img/fond_1.png" alt="fonds">
+								</div>
+								<div class="section-ratingSCHA__fonds__name-text">
+									ВТБ - Фонд Акций
+								</div>
+							</div>
+							<div class="section-ratingSCHA__fonds__element-income">
+								63,1%
+							</div>
+							<div class="section-ratingSCHA__fonds__SCHA">
+								<div class="section-ratingSCHA__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingSCHA__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<button class="section-ratingSCHA__fonds__allFonds">Показать все фонды</button>
+					</div>
+				</div>
+				<div class="section-ratingSCHA__diagramms">
+					<label for="ratingCheckboxSCHA" class="section-ratingSCHA__diagramms__checkbox">
+						<input id="ratingCheckboxSCHA" type="checkbox">
+						<span class="customCheckbox"></span>
+						<span class="customCheckbox__text">Показать только фонды с СЧА больше 10 млн руб</span>
+					</label>
+					<div class="section-ratingSCHA__diagramms__img">
+						<img src="./img/diagram.png" alt="diagramm">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.section-ratingSHCA -->
+
+
+	<div class="section-ratingControl">
+		<div class="container">
+			<div class="section-ratingControl__title">
+				Рейтинг управляющих
+			</div>
+			<div class="section-ratingControl__wrapper">
+				<div class="section-ratingControl__fonds">
+					<ul class="section-ratingControl__fonds__list">
+						<li class="section-ratingControl__fonds__list-item">3 месяца</li>
+						<li class="section-ratingControl__fonds__list-item">6 месяцев</li>
+						<li class="section-ratingControl__fonds__list-item active-fonds">Этот год</li>
+						<li class="section-ratingControl__fonds__list-item">1 год</li>
+						<li class="section-ratingControl__fonds__list-item">3 года</li>
+						<li class="section-ratingControl__fonds__list-item">Все</li>
+					</ul>
+					<div class="section-ratingControl__fonds__panel">
+						<ul class="section-ratingControl__fonds__panel__list">
+							<li class="section-ratingControl__fonds__panel__list-item">Компания</li>
+							<li class="section-ratingControl__fonds__panel__list-item">Лучшие фонды</li>
+							<li class="section-ratingControl__fonds__panel__list-item">Доходность
+								<span class="arrow-up active-arrow__up"></span>
+								<span class="arrow-down"></span>
+							</li>
+							<li class="section-ratingControl__fonds__panel__list-item">
+								СЧА, млн.руб
+								<span class="arrow-up active-arrow__up"></span>
+								<span class="arrow-down"></span>
+							</li>
+						</ul>
+					</div>
+					<div class="section-ratingControl__fonds__elemwrap">
+						<div class="section-ratingControl__fonds__element">
+							<div class="section-ratingControl__fonds__name">
+								<div class="section-ratingControl__fonds__name-img">
+									<img src="./img/fond_2.png" alt="fonds">
+								</div>
+								<div class="section-ratingControl__fonds__name-text">
+									Уралсиб - Акции роста, Уралисб-Первый, Уралисб - Ты у нее не первый
+								</div>
+							</div>
+							<div class="section-ratingControl__fonds__element-income">
+								54,2%
+							</div>
+							<div class="section-ratingControl__fonds__SCHA">
+								<div class="section-ratingControl__fonds__SCHA-text">
+									100 223 223
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControl__fonds__element">
+							<div class="section-ratingControl__fonds__name">
+								<div class="section-ratingControl__fonds__name-img">
+									<img src="./img/fond_3.png" alt="fonds">
+								</div>
+								<div class="section-ratingControl__fonds__name-text">
+									Открытие - Акции закрытия, Открытие - Облигации для всех
+								</div>
+							</div>
+							<div class="section-ratingControl__fonds__element-income">
+								58,3%
+							</div>
+							<div class="section-ratingControl__fonds__SCHA">
+								<div class="section-ratingControl__fonds__SCHA-text">
+									123 223 23
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControl__fonds__element">
+							<div class="section-ratingControl__fonds__name">
+								<div class="section-ratingControl__fonds__name-img">
+									<img src="./img/fond_4.png" alt="fonds">
+								</div>
+								<div class="section-ratingControl__fonds__name-text">
+									Сбербанк - Самый лучший фонд
+								</div>
+							</div>
+							<div class="section-ratingControl__fonds__element-income">
+								24,8%
+							</div>
+							<div class="section-ratingControl__fonds__SCHA">
+								<div class="section-ratingControl__fonds__SCHA-text">
+									100 223 223
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControl__fonds__element">
+							<div class="section-ratingControl__fonds__name">
+								<div class="section-ratingControl__fonds__name-img">
+									<img src="./img/fond_5.png" alt="fonds">
+								</div>
+								<div class="section-ratingControl__fonds__name-text">
+									Апрель - Майский фонд
+								</div>
+							</div>
+							<div class="section-ratingControl__fonds__element-income">
+								45,2%
+							</div>
+							<div class="section-ratingControl__fonds__SCHA">
+								<div class="section-ratingControl__fonds__SCHA-text">
+									123 223 23
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControl__fonds__element">
+							<div class="section-ratingControl__fonds__name">
+								<div class="section-ratingControl__fonds__name-img">
+									<img src="./img/fond_1.png" alt="fonds">
+								</div>
+								<div class="section-ratingControl__fonds__name-text">
+									ВТБ - Снова в деле, ВТБ - Акции недоразвитых стран
+								</div>
+							</div>
+							<div class="section-ratingControl__fonds__element-income">
+								63,1%
+							</div>
+							<div class="section-ratingControl__fonds__SCHA">
+								<div class="section-ratingControl__fonds__SCHA-text">
+									100 223 223
+								</div>
+							</div>
+						</div>
+						<button class="section-ratingControl__fonds__allFonds">Показать всех управляющих</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.section-ratingControl -->
+
+
+	<div class="section-ratingControlCompany">
+		<div class="container">
+			<div class="section-ratingControlCompany__title">
+				Рейтинг управляющих компаний
+			</div>
+			<div class="section-ratingControlCompany__wrapper">
+				<div class="section-ratingControlCompany__fonds">
+					<ul class="section-ratingControlCompany__fonds__list">
+						<li class="section-ratingControlCompany__fonds__list-item">3 месяца</li>
+						<li class="section-ratingControlCompany__fonds__list-item">6 месяцев</li>
+						<li class="section-ratingControlCompany__fonds__list-item active-fonds">Этот год</li>
+						<li class="section-ratingControlCompany__fonds__list-item">1 год</li>
+						<li class="section-ratingControlCompany__fonds__list-item">3 года</li>
+						<li class="section-ratingControlCompany__fonds__list-item">Все</li>
+					</ul>
+					<div class="section-ratingControlCompany__fonds__panel">
+						<ul class="section-ratingControlCompany__fonds__panel__list">
+							<li class="section-ratingControlCompany__fonds__panel__list-item">Компания</li>
+							<li class="section-ratingControlCompany__fonds__panel__list-item">Лучшие фонды</li>
+							<li class="section-ratingControlCompany__fonds__panel__list-item">Доходность
+								<span class="arrow-up active-arrow__up"></span>
+								<span class="arrow-down"></span>
+							</li>
+							<li class="section-ratingControlCompany__fonds__panel__list-item">
+								СЧА, млн.руб
+								<span class="arrow-up active-arrow__up"></span>
+								<span class="arrow-down"></span>
+							</li>
+						</ul>
+					</div>
+					<div class="section-ratingControlCompany__fonds__elemwrap">
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_2.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									Уралсиб - Акции роста, Уралисб-Первый, Уралисб - Ты у нее не первый
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								54,2%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_3.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									Открытие - Акции закрытия, Открытие - Облигации для всех
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								58,3%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_4.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									Сбербанк - Самый лучший фонд
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								24,8%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img active-element">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_5.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									Апрель - Майский фонд
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								45,2%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_1.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									ВТБ - Снова в деле, ВТБ - Акции недоразвитых стран
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								63,1%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_2.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									Уралсиб - Акции роста, Уралисб-Первый, Уралисб - Ты у нее не первый
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								54,2%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_3.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									Открытие - Акции закрытия, Открытие - Облигации для всех
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								58,3%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_4.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									Сбербанк - Самый лучший фонд
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								24,8%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_5.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									Апрель - Майский фонд
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								45,2%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									123 223 23
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+						<div class="section-ratingControlCompany__fonds__element">
+							<div class="section-ratingControlCompany__fonds__name">
+								<div class="section-ratingControlCompany__fonds__name-img">
+									<img src="./img/fond_1.png" alt="fonds">
+								</div>
+								<div class="section-ratingControlCompany__fonds__name-text">
+									ВТБ - Снова в деле, ВТБ - Акции недоразвитых стран
+								</div>
+							</div>
+							<div class="section-ratingControlCompany__fonds__element-income">
+								63,1%
+							</div>
+							<div class="section-ratingControlCompany__fonds__SCHA">
+								<div class="section-ratingControlCompany__fonds__SCHA-text">
+									100 223 223
+								</div>
+								<div class="section-ratingPiffIncome__fonds__SCHA-img">
+									<img src="./img/SCHA.png" alt="SCHA">
+								</div>
+							</div>
+						</div>
+
+						<button class="section-ratingControlCompany__fonds__allFonds">Показать всех управляющих компаний</button>
+					</div>
+				</div>
+			</div>
+			<div class="section-ratingControlCompany__MainImg">
+				<img src="./img/gazPromoMain.png" alt="gazProm">
+			</div>
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.section-ratingControlCompany -->
+
+
+	<div class="section-methodology">
+		<div class="container">
+			<div class="section-methodology__title">
+				Методология рейтинга
+			</div>
+			<div class="section-methodology__wrapper">
+				<div class="section-methodology__descItem">
+					<div class="section-methodology__descItem__content">
+						<span>Паевой инвестиционный фонд</span> (ПИФ) — это форма совместных инвестиций. Покупая ПИФ, вы становитесь
+						инвестором, а ваши средства размещаются профессиональными управляющими в растущие активы (как правило, акции
+						или облигации) с целью получения дохода.<br> ПИФы принято сравнивать по 2 показателям - доходности (то есть
+						изменение стоимости пая за период) и Стоимости Чистых Активов (СЧА), привлеченных в фонд.
+					</div>
+				</div>
+				<div class="section-methodology__descItem">
+					<div class="section-methodology__descItem__content">
+						<span>Паевой инвестиционный фонд</span> (ПИФ) — это форма совместных инвестиций. Покупая ПИФ, вы становитесь
+						инвестором, а ваши средства размещаются профессиональными управляющими в растущие активы (как правило, акции
+						или облигации) с целью получения дохода. ПИФы принято сравнивать по 2 показателям - доходности (то есть
+						изменение стоимости пая за период) и Стоимости Чистых Активов (СЧА), привлеченных в фонд.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.container -->
+	</div>
+	<!-- /.section-methodology -->
+
+
+	<div class="section-ratingMembers">
+		<div class="container">
+			<div class="section-ratingMembers__title">
+				Участники рейтинга
+			</div>
+			<div class="section-ratingMembers__sliders">
+				<div class="section-ratingMembers__sliders__wrapper">
+					<div class="section-ratingMembers__sliders__wrapper-hidden">
+						<div class="section-ratingMembers__sliders__wrapper-hidden__item">
+							<!-- <img src="./img/fondBig_2.png" alt="fonds"> -->
+						</div>
+						<div class="section-ratingMembers__sliders__wrapper-hidden__item">
+
+						</div>
+						<div class="section-ratingMembers__sliders__wrapper-hidden__item">
+
+						</div>
+						<div class="section-ratingMembers__sliders__wrapper-hidden__item">
+
+						</div>
+						<div class="section-ratingMembers__sliders__wrapper-hidden__item">
+
+						</div>
+					</div>
+				</div>
+				<div class="section-ratingMembers__sliders__leftArrow"></div>
+				<div class="section-ratingMembers__sliders__rightArrow"></div>
+			</div>
+			<div class="section-ratingMembers__MainImg">
+				<img src="./img/gazPromoMain.png" alt="gazProm">
+			</div>
+			<div class="section-ratingMembers__piff">
+				<span>Паевой инвестиционный фонд</span> (ПИФ) — это форма совместных инвестиций. Покупая ПИФ, вы становитесь
+				инвестором, а ваши
+				средства размещаются профессиональными управляющими в растущие активы (как правило, акции или облигации) с целью
+				получения дохода.
+				ПИФы принято сравнивать по 2 показателям - <span>доходности</span> (то есть изменение стоимости пая за период) и
+				Стоимости Чистых
+				Активов (СЧА), привлеченных в фонд.
+			</div>
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- /.section-ratingMembers -->
+
+
+	<footer class="section-footer">
+		<div class="section-footer__box">
+			<div class="container">
+				<div class="section-footer__wrapper">
+					<ul class="section-footer__aboutCompany">
+						<li class="section-footer__aboutCompany__item">О проекте</li>
+						<li class="section-footer__aboutCompany__item">Реклама</li>
+						<li class="section-footer__aboutCompany__item">Контакты</li>
+						<li class="section-footer__aboutCompany__item">Пользовательское соглашение</li>
+						<li class="section-footer__aboutCompany__item">Политика обработки перснональных данных</li>
+					</ul>
+					<div class="section-footer__development">
+						Разработка: Redsoft
+					</div>
+				</div>
+			</div>
+			<!-- /.container -->
+		</div>
+		<div class="section-footer__piff">
+			Стоимость инвестиционных паев может увеличиваться и уменьшаться, результаты инвестирования в прошлом не определяют
+			доходы в будущем, государство не гарантирует доходность инвестиций в ПИФ. Прежде чем приобрести инвестиционный
+			пай,
+			следует внимательно ознакомиться с правилами доверительного управления паевым инвестиционным фондом. Взимание
+			скидок
+			(надбавок) уменьшит доходность инвестиций в инвестиционные паи паевого инвестиционного фонда. С правилами
+			доверительного
+			управления, паевыми инвестиционными фондами можно ознакомиться на странице фонда, расположенной на сайте.
+		</div>
+	</footer>
+	<!-- /.section-footer -->
+
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>

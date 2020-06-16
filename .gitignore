@@ -1,11 +1,6 @@
 #dependensive
 /node_modules
-/package-lock.json
-/.babelrc
-/package.json
-/webpack.base.conf.js
-/webpack.build.conf.js
-/webpack.dev.conf.js
 
-#developed project
-/src
+#build project
+/dist
+/img
